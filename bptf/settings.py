@@ -10,6 +10,13 @@ SEARCH_CLASSIFIED_LISTINGS = r'/api/classifieds/search/v1'
 SPECIAL_ITEMS = r'/api/IGetSpecialItems/v1'
 MARKET_IMAGES = r'/api/market/images/v1'
 
+# User Token APIs
+CREATE_LISTINGS = r'/api/classifieds/list/v1'
+MY_LISTINGS = r'/api/classifieds/listings/v1'
+NOTIFICATIONS = r'/api/notifications/search/v1'
+USER_SUBSCRIPTIONS = r'/api/subscriptions/prices/v1'
+AUXILIARY = r'/api/aux/key/v1'
+
 # Access Message
 PARTNER_ACCESS_MESSAGE = r"This web API requires partner access. " \
                          r"Please visit https://backpack.tf/developer for more information."
