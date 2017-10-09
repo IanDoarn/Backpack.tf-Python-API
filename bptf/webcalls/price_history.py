@@ -21,7 +21,7 @@ class PriceHistory:
         self.item = '&item={}'.format(item.replace(' ', '+'))
         self.quality = '&quality=' + str(quality)
         self.tradable = '&tradable=' + str(tradable)
-        self.craftable = '$craftable=' + str(craftable)
+        self.craftable = '&craftable=' + str(craftable)
 
         self.url = r'{}{}{}{}{}{}{}{}'.format(
             WEBSITE, COMMUNITY_PRICE_HISTORY,
